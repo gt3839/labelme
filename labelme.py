@@ -66,7 +66,7 @@ def convert_labelme_json2mask(
 
 if __name__ == '__main__':
     convert_labelme_json2mask(
-        ['bg', 'dog', 'cat'],
+        ['staff', 'passer', 'tape'],
         "json",
         "mask",
         single_mask=True,
